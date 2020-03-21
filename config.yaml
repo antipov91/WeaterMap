@@ -1,0 +1,5 @@
+apiKey: "66f6887d5a4b96959b42fee895b48d8e"
+units: "metric"
+requests:
+    citiesWithinRectangleZone: "http://api.openweathermap.org/data/2.5/box/city?"
+    byCityName: "http://api.openweathermap.org/data/2.5/weather?"
