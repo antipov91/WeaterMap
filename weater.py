@@ -35,7 +35,7 @@ if __name__ == "__main__":
         elif opt in ('-cfg', '--config'):
             config_file = arg
 
-    if not city_name and not input_file:
+    if not city_name or not input_file:
         print ('You did not enter a city name or files with a list of cities!')
         
     try:
